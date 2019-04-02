@@ -15,6 +15,8 @@ pip install requests docopt prettytable colorama
 ```
 
 ## python doc设置, 大同小异, 复制过来的
+
+```
 """命令行火车票查看器
 
 Usage:
@@ -32,6 +34,8 @@ Example:
     tickets 北京 上海 2016-10-10
     tickets -dg 成都 南京 2016-10-10
 """
+```
+
   
 ## 数据源
 12306API: https://kyfw.12306.cn/otn/leftTicket/query?leftTicketDTO.train_date=2019-04-02&leftTicketDTO.from_station=CDW&leftTicketDTO.to_station=NJH&purpose_codes=ADULT (打开12306选票列表，f12查看network的请求)
