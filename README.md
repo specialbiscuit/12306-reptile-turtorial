@@ -41,11 +41,11 @@ Example:
 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8971
 有个json map 解析到本地station.py
 ```
-python parse_station.py > station.py
+python3 parse_station.py > station.py
 ```
 the last step:
 ```
-python tickets.py -dg 北京 上海 2019-04-02
+python3 tickets.py -dg 北京 上海 2019-04-02
 ```
 
 
